@@ -1,0 +1,2 @@
+username: jwhamilton99
+url: https://github.com/jwhamilton99/cisc275-fall2019-first-git.git
