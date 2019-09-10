@@ -10,10 +10,18 @@ class Animal {
 	public int getLegs() {
 		return numLegs;
 	}
+	@Override
+	public String toString() {
+		return ("("+name+","+numLegs+")");
+	}
 }
 
 public class Dog extends Animal {
 	public Dog(String n, int l) {
 		super(n,l);
+	}
+	@Override
+	public String toString() {
+		return ("("+name+","+numLegs+")");
 	}
 }
